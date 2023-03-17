@@ -1,10 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Checkout') {
       steps {
         echo 'Jenkins Pipeline'
-        sleep 5
+        checkout scm
       }
     }
 
