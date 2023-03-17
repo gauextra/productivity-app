@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Jenkins Pipeline'
-        sleep 10
+        sleep 5
       }
     }
 
